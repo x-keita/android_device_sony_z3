@@ -19,6 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from z3 device
 $(call inherit-product, device/sony/z3/z3.mk)
 
+# Include non-opensource parts
+$(call inherit-product, vendor/sony/z3/z3-vendor.mk)
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_z3
 PRODUCT_DEVICE := z3
