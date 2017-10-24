@@ -1,5 +1,5 @@
-# Inherit CM common Phone stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 $(call inherit-product, device/sony/z3/full_z3.mk)
 
